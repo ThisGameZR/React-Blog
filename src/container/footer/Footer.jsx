@@ -3,7 +3,7 @@ import gpt3Logo from "../../logo.svg";
 import "./footer.css";
 
 const Footer = () => (
-  <div className="gpt3__footer">
+  <div className="gpt3__footer section__padding">
     <div className="gpt3__footer-heading">
       <h1>Do you want to step in to the future before others</h1>
     </div>
