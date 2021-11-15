@@ -1,30 +1,17 @@
-<<<<<<< HEAD
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import Footer from "./container/footer/Footer";
 import Blog from "./container/blog/Blog";
-=======
-import React from 'react';
-import Footer from './container/footer/Footer';
-import './App.css';
-import Blog from './container/blog/Blog';
-import CTA from './components/cta/CTA';
-<<<<<<< HEAD
->>>>>>> 6f9db3f (cta component)
-=======
-import Possibility from './container/possibility/Possibility';
-<<<<<<< HEAD
->>>>>>> 9683040 (possibility section)
-=======
-import Features from './container/features/Features';
-<<<<<<< HEAD
->>>>>>> 67431ef (features section)
-=======
-import WhatGPT3 from './container/whatGPT3/WhatGPT3';
->>>>>>> 9624a1b (what is section)
+import CTA from "./components/cta/CTA";
+import Possibility from "./container/possibility/Possibility";
+import Features from "./container/features/Features";
+import WhatGPT3 from "./container/whatGPT3/WhatGPT3";
+import Brand from "./components/brand/Brand";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
+      <Brand />
       <WhatGPT3 />
       <Features />
       <Possibility />
