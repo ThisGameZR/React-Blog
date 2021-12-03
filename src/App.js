@@ -13,15 +13,9 @@ import "./App.css";
 =======
 import React from 'react';
 
-import Footer from './container/footer/Footer';
-import Blog from './container/blog/Blog';
-import CTA from './components/cta/CTA';
-import Possibility from './container/possibility/Possibility';
-import Features from './container/features/Features';
-import WhatGPT3 from './container/whatGPT3/WhatGPT3';
-import Brand from './components/brand/Brand';
-import Header from './container/header/Header';
-import Navbar from './components/navbar/Navbar';
+import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
+import { CTA, Brand, Navbar } from './components';
+
 import './App.css';
 >>>>>>> 848d075 (adjust contents)
 
