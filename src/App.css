@@ -1,9 +1,22 @@
+<<<<<<< HEAD
 .App {
   text-align: center;
+=======
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+>>>>>>> 821d151 (scroll)
 }
 
 body {
   background: var(--color-bg);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
 }
 
 .gradient__bg {
