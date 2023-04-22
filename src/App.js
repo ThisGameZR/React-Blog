@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 import React from "react";
 import Footer from "./container/footer/Footer";
 import Blog from "./container/blog/Blog";
@@ -12,12 +13,19 @@ import Navbar from "./components/navbar/Navbar";
 import "./App.css";
 =======
 import React from 'react';
+=======
+import React from "react";
+>>>>>>> 1d79f35 (resolve merge conflict)
 
-import { Footer, Blog, Possibility, Features, WhatGPT3, Header } from './containers';
-import { CTA, Brand, Navbar } from './components';
+import { Footer, Blog, Possibility, Features, WhatIs, Header } from "./containers";
+import { CTA, Brand, Navbar } from "./components";
 
+<<<<<<< HEAD
 import './App.css';
 >>>>>>> 848d075 (adjust contents)
+=======
+import "./App.css";
+>>>>>>> 1d79f35 (resolve merge conflict)
 
 const App = () => (
   <div className="App">
@@ -25,8 +33,8 @@ const App = () => (
       <Navbar />
       <Header />
     </div>
-    <Brand />
-    <WhatGPT3 />
+    {/* <Brand /> */}
+    <WhatIs />
     <Features />
     <Possibility />
     <CTA />
