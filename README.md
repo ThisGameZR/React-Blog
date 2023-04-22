@@ -2,6 +2,10 @@
 
 This is a web project that was developed during the 2021 semester 1 using the React.js framework. The objective of the project was to create a web blog on any topic that the student is interested in.
 
+## Demo site
+
+https://react-blog-thisgamezr.vercel.app/
+
 ## Requirements
 
 The project requirements included using the React.js framework to create a fully functional web blog that meets the following criteria:
