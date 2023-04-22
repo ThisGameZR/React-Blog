@@ -35,10 +35,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
-  }
-=======
   },
   "devDependencies": {}
->>>>>>> 7b13b01 (Update dependencies)
 }
